@@ -15,11 +15,40 @@ body {
   justify-content: center;
 }
 
+.container-one {
+  display: flex;
+  /* border: 2px solid red; */
+}
+
+.header {
+  font-weight: bold;
+  font-size: larger;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 12px;
+  /* border: 2px solid purple; */
+  display: flex;
+}
+
+.text {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.icon-box {
+  /* border: 2px solid green; */
+  margin-right: 12px;
 }
 
 .icon {
